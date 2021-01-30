@@ -1,5 +1,6 @@
 # ELE3000
-Projet de troisième année à Polytechnique Montréal.
+Projet de troisième année à Polytechnique Montréal par
+Vincent Therrien (vincent.therrien@polymtl.ca)
 
 La documentation est générée avec le programme Sphinx, utilisé pour générer
 la documentation officielle de Python. Les fichiers source sont écrits avec
