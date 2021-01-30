@@ -8,7 +8,7 @@ plusieurs formes.
 
 ## Documentation HTML
 
-Ouvrez le fichier "html/index.htmlÈ pour consulter la documentation sous format
+Ouvrez le fichier "html/index.html" pour consulter la documentation sous format
 HTML.
 
 ## Documentation PDF
