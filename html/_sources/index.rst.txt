@@ -1,0 +1,17 @@
+.. ELE3000 documentation master file, created by
+   sphinx-quickstart on Sat Jan 23 15:16:56 2021.
+
+ELE3000
+=======
+
+Ce projet, réalisé dans le cadre du cours **ELE3000 - Projet personnel en
+génie électrique**, consiste à réaliser un appareil numérique d'affichage
+d'images tactiles pour faciliter l'accès à des illustrations aux personnes
+ayant une déficience visuelle.
+
+.. toctree::
+   :maxdepth: 2
+
+   recherche.rst
+   plans.rst
+   journal.rst

@@ -1,0 +1,45 @@
+Journaux hebdomadaires
+======================
+
+Janvier
+-------
+
+23
+++
+
+- Cours initial (présentation du cours et des objectifs de la semaine)
+- Rédaction d'un document PDF de présentation sommaire du projet
+- Recherche d'un professeur potentiellement intéressé par le projet
+  dans la liste du personnel du département de GE
+  (https://www.polymtl.ca/ge/notre-departement)
+- Contact du professeur Richard Gourdeau et confirmation de sa direction
+  du projet
+- Rédaction de la description du projet ainsi que de l'échéancier;
+  signature du professeur Gourdeau
+- Création du journal
+
+25
+++
+
+- Lecture sur les méthodologies de conception et le développement durable
+- Second cours : validation de l'idée
+
+27
+++
+
+- Commande de moteurs miniature pour les tester comme actionneurs
+- Recherche sur les applications graphiques accessibles
+
+30
+++
+
+- Fin de la recherche, génération de la documentation Latex
+
+Février
+-------
+
+Mars
+----
+
+Avril
+-----

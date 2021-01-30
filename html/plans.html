@@ -1,0 +1,332 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="fr" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Plans &mdash; Documentation ELE3000 1.0</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Recherche" href="search.html" />
+    <link rel="next" title="Journaux hebdomadaires" href="journal.html" />
+    <link rel="prev" title="Recherche" href="recherche.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> ELE3000
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Rechercher docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="recherche.html">Recherche</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Plans</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#conventions">Conventions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#solutions">Solutions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#module-mecanique">Module mécanique</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#ressort-de-torsion">Ressort de torsion</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#rotation-des-cellules">Rotation des cellules</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#circuit-electronique-embarque">Circuit électronique embarqué</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#application-frontale">Application frontale</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#evaluation-des-solutions">Évaluation des solutions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#choix-definitifs">Choix définitifs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#plans-finaux-et-materiel">Plans finaux et matériel</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="journal.html">Journaux hebdomadaires</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">ELE3000</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Plans</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/plans.rst.txt" rel="nofollow"> Afficher la source de la page</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="plans">
+<h1>Plans<a class="headerlink" href="#plans" title="Lien permanent vers ce titre">¶</a></h1>
+<p>Cette page présente des solutions envisagées ainsi que le plan définitivement
+retenu pour réaliser le projet.</p>
+<div class="section" id="conventions">
+<h2>Conventions<a class="headerlink" href="#conventions" title="Lien permanent vers ce titre">¶</a></h2>
+<p>La section définit un glossaire pour identifier le sens de certains termes :</p>
+<ul class="simple">
+<li><p><strong>Image tactile</strong> : illustration accessible par le sens du toucher</p></li>
+<li><p><strong>afficheur haptique</strong> : appareil servant à afficher des images tactiles</p></li>
+<li><p><strong>Pavé</strong> : matrice bidimensionnelle de cellules contrôlées verticalement
+destinée à afficher des images tactiles</p></li>
+<li><p><strong>Cellule</strong> : élément du pavé pouvant s’élever ou s’abaisser. On rencontre
+aussi le mot <em>taxel</em> (de « texture » et « element », calqué sur la construction
+du mot « pixel »)</p></li>
+</ul>
+<div class="align-center figure align-default" id="id1">
+<img alt="Image simplifiée de l'apparence désirée de l'appareil" src="_images/simple.png" />
+<p class="caption"><span class="caption-text">Apparence possible de l’appareil</span><a class="headerlink" href="#id1" title="Lien permanent vers cette image">¶</a></p>
+</div>
+</div>
+<div class="section" id="solutions">
+<h2>Solutions<a class="headerlink" href="#solutions" title="Lien permanent vers ce titre">¶</a></h2>
+<p>On peut séparer le projet en composantes principales réalisables séparément.</p>
+<div class="section" id="module-mecanique">
+<h3>Module mécanique<a class="headerlink" href="#module-mecanique" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Le module sert à contrôler la position des cellules. Dans tous les cas, pour
+placer une cellule en position haute, il faut :</p>
+<ul class="simple">
+<li><p>élever toutes les cellules d’une colonnes avec un actionneur</p></li>
+<li><p>figer la position de la cellule visée avec une action mécanique horizontale.</p></li>
+</ul>
+<p>Les mécanismes séquentiels envisagés diffèrent dans leur manière de préserver
+la position de la cellule.</p>
+<div class="section" id="ressort-de-torsion">
+<h4>Ressort de torsion<a class="headerlink" href="#ressort-de-torsion" title="Lien permanent vers ce titre">¶</a></h4>
+<p>On peut utiliser un ressort de torsion qui s’insère dans une fente de la
+cellule.</p>
+<div class="align-center figure align-default" id="id2">
+<img alt="Image d'une séquence de trois opérations mécaniques utilisant un ressort de torsion" src="_images/m1.png" />
+<p class="caption"><span class="caption-text">Séquence mécanique avec ressorts de torsion</span><a class="headerlink" href="#id2" title="Lien permanent vers cette image">¶</a></p>
+</div>
+</div>
+<div class="section" id="rotation-des-cellules">
+<h4>Rotation des cellules<a class="headerlink" href="#rotation-des-cellules" title="Lien permanent vers ce titre">¶</a></h4>
+<p>La position d’une cellule pourrait être maintenue en lui faisant effectuer une
+rotation de sorte qu’elle ne puisse plus glisser dans son guide de
+déplacement.</p>
+</div>
+</div>
+<div class="section" id="circuit-electronique-embarque">
+<h3>Circuit électronique embarqué<a class="headerlink" href="#circuit-electronique-embarque" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Le circuit embarqué dans l’appareil sert à :</p>
+<ul class="simple">
+<li><p>Recevoir un tableau bidimensionnel de valeurs booléennes qui indique quelles
+cellules doivent être élevées depuis une connexion USB branchée à un
+ordinateur</p></li>
+<li><p>Activer les actionneurs en les pilotant avec des transistors depuis ses
+sorties à usage général (GPIO)</p></li>
+</ul>
+<p>Un circuit préliminaire réalisé sur une platine de tests peut suffire afin de
+valider son fonctionnement. Pour un système plus compact qui s’insère
+facilement dans l’appareil, un circuit imprimé (PCB) doit être conçu. Le
+logiciel KiCAD sera privilégié puisqu’il est gratuit.</p>
+</div>
+<div class="section" id="application-frontale">
+<h3>Application frontale<a class="headerlink" href="#application-frontale" title="Lien permanent vers ce titre">¶</a></h3>
+<p>L’application sert à :</p>
+<ul class="simple">
+<li><p>Sélectionner une image à afficher</p></li>
+<li><p>Convertir l’image (format PNG, SVG ou autre) en matrice bidimensionnelle de
+valeurs booléennes (pour déterminer la position des cellules)</p></li>
+<li><p>Naviguer dans l’image (agrandissement et défilement)</p></li>
+<li><p>Téléverser la matrice vers l’appareil par lien USB</p></li>
+<li><p>(optionnel) Proposer une interface interactive pour réaliser des images</p></li>
+</ul>
+<p>Cette application n’a pas besoin d’être rapide. Les outils utilisés pour la
+réaliser doivent minimiser le <strong>temps de conception</strong> parce que c’est le
+critère le plus limitant dans le cadre du projet.</p>
+<p>Le langage Python est adapté à ce projet parce que le prototypage est rapide.
+Contrairement à une interface Web élaborée avec HTML, CSS et Javascript, il
+sera plus facile avec Python de communiquer avec l’appareil par port USB parce
+que le langage n’est pas limité par les protocoles de sécurité d’un navigateur
+Web.</p>
+<p>Plusieurs bibliothèques permettent de réaliser des applications graphiques
+avec Python :</p>
+<ul class="simple">
+<li><p>Tkinter : très facile à utiliser mais d’une apparence digne du pire des
+années 90.</p></li>
+<li><p>wxWidgets : plus esthétique mais aussi plus complexe</p></li>
+<li><p>PyQt : plus flexible, mais plus difficile à installer</p></li>
+</ul>
+<p>Je crois pour l’instant utiliser wxWidgets.</p>
+</div>
+</div>
+<div class="section" id="evaluation-des-solutions">
+<h2>Évaluation des solutions<a class="headerlink" href="#evaluation-des-solutions" title="Lien permanent vers ce titre">¶</a></h2>
+<p>À faire</p>
+</div>
+<div class="section" id="choix-definitifs">
+<h2>Choix définitifs<a class="headerlink" href="#choix-definitifs" title="Lien permanent vers ce titre">¶</a></h2>
+<p>À faire</p>
+</div>
+<div class="section" id="plans-finaux-et-materiel">
+<h2>Plans finaux et matériel<a class="headerlink" href="#plans-finaux-et-materiel" title="Lien permanent vers ce titre">¶</a></h2>
+<p>À faire</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="journal.html" class="btn btn-neutral float-right" title="Journaux hebdomadaires" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="recherche.html" class="btn btn-neutral float-left" title="Recherche" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Vincent Therrien.
+
+    </p>
+  </div>
+    
+    
+    
+    Compilé avec <a href="https://www.sphinx-doc.org/">Sphinx</a> en utilisant un
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">thème</a>
+    
+    fourni par <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

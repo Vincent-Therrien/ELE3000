@@ -1,0 +1,124 @@
+Plans
+=====
+
+Cette page présente des solutions envisagées ainsi que le plan définitivement
+retenu pour réaliser le projet.
+
+Conventions
+-----------
+
+La section définit un glossaire pour identifier le sens de certains termes :
+
+- **Image tactile** : illustration accessible par le sens du toucher
+- **afficheur haptique** : appareil servant à afficher des images tactiles
+- **Pavé** : matrice bidimensionnelle de cellules contrôlées verticalement
+  destinée à afficher des images tactiles
+- **Cellule** : élément du pavé pouvant s'élever ou s'abaisser. On rencontre
+  aussi le mot *taxel* (de "texture" et "element", calqué sur la construction
+  du mot "pixel")
+
+.. figure:: images/simple.png
+   :alt: Image simplifiée de l'apparence désirée de l'appareil
+   :figclass: align-center
+
+   Apparence possible de l'appareil
+
+Solutions
+---------
+
+On peut séparer le projet en composantes principales réalisables séparément.
+
+Module mécanique
+++++++++++++++++
+
+Le module sert à contrôler la position des cellules. Dans tous les cas, pour
+placer une cellule en position haute, il faut :
+
+- élever toutes les cellules d'une colonnes avec un actionneur
+- figer la position de la cellule visée avec une action mécanique horizontale.
+
+Les mécanismes séquentiels envisagés diffèrent dans leur manière de préserver
+la position de la cellule.
+
+Ressort de torsion
+******************
+
+On peut utiliser un ressort de torsion qui s'insère dans une fente de la
+cellule.
+
+.. figure:: images/m1.png
+   :alt: Image d'une séquence de trois opérations mécaniques utilisant un
+      ressort de torsion
+   :figclass: align-center
+   
+   Séquence mécanique avec ressorts de torsion
+
+Rotation des cellules
+*********************
+
+La position d'une cellule pourrait être maintenue en lui faisant effectuer une
+rotation de sorte qu'elle ne puisse plus glisser dans son guide de
+déplacement.
+
+Circuit électronique embarqué
++++++++++++++++++++++++++++++
+
+Le circuit embarqué dans l'appareil sert à :
+
+- Recevoir un tableau bidimensionnel de valeurs booléennes qui indique quelles
+  cellules doivent être élevées depuis une connexion USB branchée à un
+  ordinateur
+- Activer les actionneurs en les pilotant avec des transistors depuis ses
+  sorties à usage général (GPIO)
+
+Un circuit préliminaire réalisé sur une platine de tests peut suffire afin de
+valider son fonctionnement. Pour un système plus compact qui s'insère
+facilement dans l'appareil, un circuit imprimé (PCB) doit être conçu. Le
+logiciel KiCAD sera privilégié puisqu'il est gratuit.
+
+Application frontale
+++++++++++++++++++++
+
+L'application sert à :
+
+- Sélectionner une image à afficher
+- Convertir l'image (format PNG, SVG ou autre) en matrice bidimensionnelle de
+  valeurs booléennes (pour déterminer la position des cellules)
+- Naviguer dans l'image (agrandissement et défilement)
+- Téléverser la matrice vers l'appareil par lien USB
+- (optionnel) Proposer une interface interactive pour réaliser des images
+
+Cette application n'a pas besoin d'être rapide. Les outils utilisés pour la
+réaliser doivent minimiser le **temps de conception** parce que c'est le
+critère le plus limitant dans le cadre du projet.
+
+Le langage Python est adapté à ce projet parce que le prototypage est rapide.
+Contrairement à une interface Web élaborée avec HTML, CSS et Javascript, il
+sera plus facile avec Python de communiquer avec l'appareil par port USB parce
+que le langage n'est pas limité par les protocoles de sécurité d'un navigateur
+Web.
+
+Plusieurs bibliothèques permettent de réaliser des applications graphiques
+avec Python :
+
+- Tkinter : très facile à utiliser mais d'une apparence digne du pire des
+  années 90.
+- wxWidgets : plus esthétique mais aussi plus complexe
+- PyQt : plus flexible, mais plus difficile à installer
+
+Je crois pour l'instant utiliser wxWidgets.
+
+Évaluation des solutions
+------------------------
+
+À faire
+
+Choix définitifs
+----------------
+
+À faire
+
+Plans finaux et matériel
+------------------------
+
+À faire
