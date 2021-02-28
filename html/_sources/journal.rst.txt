@@ -38,6 +38,23 @@ Janvier
 Février
 -------
 
+2
++++
+
+- Tests mécaniques avec les moteurs.
+- La force de moteurs est trop faible pour le concept initial, c'est pourquoi
+  j'ai décrit une modification du concept dans la section plans.
+
+6
++++
+
+- Début de la réalisation des plans de l'appareil
+
+7
++++
+
+- Rédaction des spécifications fonctionnelles
+
 Mars
 ----
 

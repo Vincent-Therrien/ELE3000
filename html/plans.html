@@ -99,9 +99,15 @@
 <li class="toctree-l3"><a class="reference internal" href="#application-frontale">Application frontale</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#evaluation-des-solutions">Évaluation des solutions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#choix-definitifs">Choix définitifs</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#plans-finaux-et-materiel">Plans finaux et matériel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#choix-definitifs">Choix définitifs</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#application">Application</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#systeme-embarque">Système embarqué</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#appareil">Appareil</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#plans-finaux">Plans finaux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#materiel">Matériel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#realisation">Réalisation</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="journal.html">Journaux hebdomadaires</a></li>
@@ -267,17 +273,80 @@ années 90.</p></li>
 <p>Je crois pour l’instant utiliser wxWidgets.</p>
 </div>
 </div>
-<div class="section" id="evaluation-des-solutions">
-<h2>Évaluation des solutions<a class="headerlink" href="#evaluation-des-solutions" title="Lien permanent vers ce titre">¶</a></h2>
-<p>À faire</p>
-</div>
 <div class="section" id="choix-definitifs">
 <h2>Choix définitifs<a class="headerlink" href="#choix-definitifs" title="Lien permanent vers ce titre">¶</a></h2>
-<p>À faire</p>
+<div class="section" id="application">
+<h3>Application<a class="headerlink" href="#application" title="Lien permanent vers ce titre">¶</a></h3>
 </div>
-<div class="section" id="plans-finaux-et-materiel">
-<h2>Plans finaux et matériel<a class="headerlink" href="#plans-finaux-et-materiel" title="Lien permanent vers ce titre">¶</a></h2>
-<p>À faire</p>
+<div class="section" id="systeme-embarque">
+<h3>Système embarqué<a class="headerlink" href="#systeme-embarque" title="Lien permanent vers ce titre">¶</a></h3>
+</div>
+<div class="section" id="appareil">
+<h3>Appareil<a class="headerlink" href="#appareil" title="Lien permanent vers ce titre">¶</a></h3>
+<p>La solution retenue consiste à utiliser le mécanisme avec les ressorts. En
+effectuant des tests mécaniques, j’ai réalisé qu’il est possible de simplifier
+la forme de la pièce : il suffit d’utiliser une tige métallique avec un anneau
+en son centre, ce qui diminue sa masse et la complexité de fabrication.</p>
+</div>
+</div>
+<div class="section" id="plans-finaux">
+<h2>Plans finaux<a class="headerlink" href="#plans-finaux" title="Lien permanent vers ce titre">¶</a></h2>
+<p>L’appareil présente l’apparence illustrée par la figure suivante :</p>
+<div class="align-center figure align-default" id="id3">
+<img alt="Dimensions de l'appareil" src="_images/dimensions.png" />
+<p class="caption"><span class="caption-text">Dimensions de l’appareil</span><a class="headerlink" href="#id3" title="Lien permanent vers cette image">¶</a></p>
+</div>
+<p>La prise USB pour contrôler l’appareil se situe à l’arrière :</p>
+<div class="align-center figure align-default" id="id4">
+<img alt="Emplacement de la prise USB" src="_images/prise.png" />
+<p class="caption"><span class="caption-text">Emplacement de la prise USB</span><a class="headerlink" href="#id4" title="Lien permanent vers cette image">¶</a></p>
+</div>
+<p>L’intérieur de l’appareil peut être divisé en deux mécanismes principaux :
+une partie <em>élève</em> les cellules (mouvement verticaux) et l’autre partie
+<em>maintient</em> les positions (mouvements horizontaux). Les figures suivantes
+montrent où elles se trouvent :</p>
+<div class="align-center figure align-default" id="id5">
+<img alt="Plateformes élévatrices" src="_images/plateformes.png" />
+<p class="caption"><span class="caption-text">Plateformes élévatrices</span><a class="headerlink" href="#id5" title="Lien permanent vers cette image">¶</a></p>
+</div>
+<div class="align-center figure align-default" id="id6">
+<img alt="Tiges à mouvements verticaux" src="_images/tiges.png" />
+<p class="caption"><span class="caption-text">Tiges à mouvements verticaux</span><a class="headerlink" href="#id6" title="Lien permanent vers cette image">¶</a></p>
+</div>
+<p>Le circuit imprimé est placé à l’arrière, face à la prise USB :</p>
+<div class="align-center figure align-default" id="id7">
+<img alt="Emplacement du circuit imprimé" src="_images/PCB.png" />
+<p class="caption"><span class="caption-text">Emplacement du circuit imprimé</span><a class="headerlink" href="#id7" title="Lien permanent vers cette image">¶</a></p>
+</div>
+</div>
+<div class="section" id="materiel">
+<h2>Matériel<a class="headerlink" href="#materiel" title="Lien permanent vers ce titre">¶</a></h2>
+<ul class="simple">
+<li><p>15 moteurs électriques miniatures (2 cm par 2,5 cm par 1,5 cm) alimentés
+par des tensions de trois à six volts.</p></li>
+<li><p>Fils électriques</p></li>
+<li><p>Fils d’acier inoxydable de trois mètres (pour fabriquer les cellules)</p></li>
+<li><p>Feuille de plastique déformable</p></li>
+</ul>
+</div>
+<div class="section" id="realisation">
+<h2>Réalisation<a class="headerlink" href="#realisation" title="Lien permanent vers ce titre">¶</a></h2>
+<div class="align-center figure align-default" id="id8">
+<img alt="Plateformes élévatrices" src="_images/etage1.jpg" />
+<p class="caption"><span class="caption-text">Plateformes élévatrices</span><a class="headerlink" href="#id8" title="Lien permanent vers cette image">¶</a></p>
+</div>
+<div class="align-center figure align-default" id="id9">
+<img alt="Premier étage du pavé" src="_images/etage2.jpg" />
+<p class="caption"><span class="caption-text">Premier étage du pavé</span><a class="headerlink" href="#id9" title="Lien permanent vers cette image">¶</a></p>
+</div>
+<div class="align-center figure align-default" id="id10">
+<img alt="Tiges horizontales" src="_images/etage3.jpg" />
+<p class="caption"><span class="caption-text">Tiges horizontales</span><a class="headerlink" href="#id10" title="Lien permanent vers cette image">¶</a></p>
+</div>
+<div class="align-center figure align-default" id="id11">
+<img alt="Pavé (complété à moitié)" src="_images/etage4.jpg" />
+<p class="caption"><span class="caption-text">Pavé (complété à moitié)</span><a class="headerlink" href="#id11" title="Lien permanent vers cette image">¶</a></p>
+</div>
 </div>
 </div>
 
