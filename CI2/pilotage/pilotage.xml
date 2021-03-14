@@ -1,0 +1,2923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Vincent\Documents\Universite\8. Hiver 2021\ELE3000\CI\pilotage\pilotage.sch</source>
+    <date>04/03/2021 19:54:42</date>
+    <tool>Eeschema (5.0.1)-3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pilotage.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/microcontroleur/" tstamps="/603DAFE8/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>microcontroleur.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/transistors_c/" tstamps="/603DB044/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>transistors_c.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/regulateur/" tstamps="/60455D0B/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>regulateursch.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/transistors_s/" tstamps="/604E371B/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>transistors_s.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/connecteurs/" tstamps="/6059D068/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>connecteurs.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>STM32F446RETx</value>
+      <footprint>Package_QFP:LQFP-64_10x10mm_P0.5mm</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141306.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">497-15376-ND</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Manufacturer Part Number">STM32F446RET6</field>
+      </fields>
+      <libsource lib="MCU_ST_STM32F4" part="STM32F446RETx" description="ARM Cortex-M4 MCU, 512KB flash, 128KB RAM, 180MHz, 1.8-3.6V, 50 GPIO, LQFP-64"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>603DB26C</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1007-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL21F104ZBCNNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>603E605D</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1007-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL21F104ZBCNNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>603E6151</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1007-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL21F104ZBCNNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>603E6170</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1007-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL21F104ZBCNNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>603E6198</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1007-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL21F104ZBCNNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>603E61BF</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>FerritBead 600 OHM</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">732-1620-1-ND</field>
+        <field name="Manufacturer">Wurth Electronics Inc.</field>
+        <field name="Manufacturer Part Number">742792040</field>
+      </fields>
+      <libsource lib="Device" part="Ferrite_Bead" description="Ferrite bead"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>603E816D</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1007-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL21F104ZBCNNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>603E88AA</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1007-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL21F104ZBCNNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>603E8B62</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P1.0KACT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6GEYJ102V</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>603EB408</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1007-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL21F104ZBCNNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>603F0F81</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
+      <fields>
+        <field name="DigiKey">EG2531CT-ND</field>
+        <field name="Manufacturer">E-Switch</field>
+        <field name="Manufacturer Part Number">TL3342F160QG/TR</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>603F2BEF</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P10KACT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6GEYJ103V</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>603F61D0</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1007-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL21F104ZBCNNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>603FBC10</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1065-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL21A475KOFNNNE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>603FD3C8</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>Crystal</value>
+      <footprint>Crystal:Crystal_SMD_ECS_CSM3X-2Pin_7.6x4.1mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">XC1776CT-ND</field>
+        <field name="Manufacturer">ECS Inc.</field>
+        <field name="Manufacturer Part Number">ECS-160-20-3X-TR</field>
+      </fields>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>6040E432</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1109-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL21C100JBANNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>60412E02</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1109-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL21C100JBANNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>60417E53</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P10KACT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6GEYJ103V</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>604A76A1</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>606E3D7D</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>606E8E7E</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>606EDCC3</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>606F2B05</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>606F794C</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>606FC790</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>607015D7</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>60706421</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>6070B270</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>607100BA</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>60714F03</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>60719DD1</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>6071EC1C</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>60723A6A</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>607288B7</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>6072D707</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>60732556</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>607373A6</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>6073C1FB</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>6074104D</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>60745EA0</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>6074ACFA</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>6074FB51</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>607598C4</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>6075E71B</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>60763573</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>607683CE</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>6076D22E</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>60772089</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>60776EE5</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>6077BD42</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>60780BA0</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>607859FF</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P2.2KDECT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AED222X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/microcontroleur/" tstamps="/603DAFE8/"/>
+      <tstamp>6078A85F</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_c/" tstamps="/603DB044/"/>
+      <tstamp>604AEB05</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_c/" tstamps="/603DB044/"/>
+      <tstamp>604AEC92</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_c/" tstamps="/603DB044/"/>
+      <tstamp>604AEDB5</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_c/" tstamps="/603DB044/"/>
+      <tstamp>604AEF17</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_c/" tstamps="/603DB044/"/>
+      <tstamp>604AF07C</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_c/" tstamps="/603DB044/"/>
+      <tstamp>604AF8BC</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_c/" tstamps="/603DB044/"/>
+      <tstamp>604B0CDA</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_c/" tstamps="/603DB044/"/>
+      <tstamp>604B0CE4</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_c/" tstamps="/603DB044/"/>
+      <tstamp>604B10B4</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_c/" tstamps="/603DB044/"/>
+      <tstamp>604B10BE</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_c/" tstamps="/603DB044/"/>
+      <tstamp>604B149A</tstamp>
+    </comp>
+    <comp ref="Q9">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_c/" tstamps="/603DB044/"/>
+      <tstamp>604B14A4</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_c/" tstamps="/603DB044/"/>
+      <tstamp>604B1864</tstamp>
+    </comp>
+    <comp ref="Q11">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_c/" tstamps="/603DB044/"/>
+      <tstamp>604B186E</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_c/" tstamps="/603DB044/"/>
+      <tstamp>604BC3BC</tstamp>
+    </comp>
+    <comp ref="Q12">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_c/" tstamps="/603DB044/"/>
+      <tstamp>604BC3C6</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_c/" tstamps="/603DB044/"/>
+      <tstamp>604C20D1</tstamp>
+    </comp>
+    <comp ref="Q10">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_c/" tstamps="/603DB044/"/>
+      <tstamp>604C20DB</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_c/" tstamps="/603DB044/"/>
+      <tstamp>604C31DC</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_c/" tstamps="/603DB044/"/>
+      <tstamp>604C31E6</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_c/" tstamps="/603DB044/"/>
+      <tstamp>604C42BB</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_c/" tstamps="/603DB044/"/>
+      <tstamp>604C42C5</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_c/" tstamps="/603DB044/"/>
+      <tstamp>604C535C</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_c/" tstamps="/603DB044/"/>
+      <tstamp>604C5366</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB_B_Micro</value>
+      <footprint>Connector_USB:USB_Micro-B_Wuerth_629105150521</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">732-5960-2-ND</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Manufacturer Part Number">629105150521</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <sheetpath names="/regulateur/" tstamps="/60455D0B/"/>
+      <tstamp>60455D33</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>USBLC6-2SC6</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www2.st.com/resource/en/datasheet/CD00050750.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">497-5235-1-ND</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Manufacturer Part Number">USBLC6-2SC6</field>
+      </fields>
+      <libsource lib="Power_Protection" part="USBLC6-2SC6" description="Bidirectional ESD Protection Diode, SOT-23-6"/>
+      <sheetpath names="/regulateur/" tstamps="/60455D0B/"/>
+      <tstamp>6045A4B3</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P22ACT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6GEYJ220V</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/regulateur/" tstamps="/60455D0B/"/>
+      <tstamp>6045B301</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P22ACT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6GEYJ220V</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/regulateur/" tstamps="/60455D0B/"/>
+      <tstamp>6045B636</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P22ACT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-6GEYJ220V</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/regulateur/" tstamps="/60455D0B/"/>
+      <tstamp>6045BDE1</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1096-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL21A106KOQNNNE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/regulateur/" tstamps="/60455D0B/"/>
+      <tstamp>6045F937</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MCP16301</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20005004D.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">MCP16301T-I/CHYCT-ND</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="Manufacturer Product Number">MCP16301T-I/CHY</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="MCP16301" description="1A, 4.0 to 30V Input, High Voltage Input integrated switch step-down regulator, SOT-23-6"/>
+      <sheetpath names="/regulateur/" tstamps="/60455D0B/"/>
+      <tstamp>6045FF96</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/regulateur/" tstamps="/60455D0B/"/>
+      <tstamp>604642DA</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0.10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1007-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL21F104ZBCNNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/regulateur/" tstamps="/60455D0B/"/>
+      <tstamp>60465CD2</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">B0530WSRRGCT-ND</field>
+        <field name="Manufacturer">Taiwan Semiconductor Corporation</field>
+        <field name="Manufacturer Part Number">B0530WS RRG</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/regulateur/" tstamps="/60455D0B/"/>
+      <tstamp>6046767F</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>15uH</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">587-2896-1-ND</field>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Manufacturer Part Number">BRL1608T150M</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/regulateur/" tstamps="/60455D0B/"/>
+      <tstamp>6046DC39</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>31k6</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P31.6KDACT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-6AEB3162V</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/regulateur/" tstamps="/60455D0B/"/>
+      <tstamp>6046FFEE</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>10k0</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P10KDACT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-6AEB103V</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/regulateur/" tstamps="/60455D0B/"/>
+      <tstamp>6047232D</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1096-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL21A106KOQNNNE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/regulateur/" tstamps="/60455D0B/"/>
+      <tstamp>60475BDA</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1096-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL21A106KOQNNNE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/regulateur/" tstamps="/60455D0B/"/>
+      <tstamp>60476687</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">350-4394-1-ND</field>
+        <field name="Manufacturer">Dialight</field>
+        <field name="Manufacturer Part Number">5973605607F</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/regulateur/" tstamps="/60455D0B/"/>
+      <tstamp>6047E46A</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P330DCCT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERA-2AEB331X</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/regulateur/" tstamps="/60455D0B/"/>
+      <tstamp>604804F7</tstamp>
+    </comp>
+    <comp ref="Q13">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>604E3A89</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>604E3A93</tstamp>
+    </comp>
+    <comp ref="Q15">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>604E3A9D</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>604E3AB0</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>604E3AC2</tstamp>
+    </comp>
+    <comp ref="Q14">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>604E3ADE</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>604E3AFB</tstamp>
+    </comp>
+    <comp ref="Q19">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>604E3B05</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>604E3B10</tstamp>
+    </comp>
+    <comp ref="Q23">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>604E3B1A</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>604E3B25</tstamp>
+    </comp>
+    <comp ref="Q27">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>604E3B2F</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>604E3B3A</tstamp>
+    </comp>
+    <comp ref="Q31">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>604E3B44</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>604E3B7C</tstamp>
+    </comp>
+    <comp ref="Q32">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>604E3B86</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>604E3B9A</tstamp>
+    </comp>
+    <comp ref="Q28">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>604E3BA4</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>604E3BAF</tstamp>
+    </comp>
+    <comp ref="Q24">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>604E3BB9</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>604E3BC4</tstamp>
+    </comp>
+    <comp ref="Q20">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>604E3BCE</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>604E3BD9</tstamp>
+    </comp>
+    <comp ref="Q16">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>604E3BE3</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>605081E3</tstamp>
+    </comp>
+    <comp ref="Q17">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>605081ED</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>60508202</tstamp>
+    </comp>
+    <comp ref="Q21">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>6050820C</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>60508217</tstamp>
+    </comp>
+    <comp ref="Q25">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>60508221</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>6050822C</tstamp>
+    </comp>
+    <comp ref="Q29">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>60508236</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>60508241</tstamp>
+    </comp>
+    <comp ref="Q33">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>6050824B</tstamp>
+    </comp>
+    <comp ref="D37">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>60508282</tstamp>
+    </comp>
+    <comp ref="Q34">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>6050828C</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>6050829A</tstamp>
+    </comp>
+    <comp ref="Q30">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>605082A4</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>605082AF</tstamp>
+    </comp>
+    <comp ref="Q26">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>605082B9</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>605082C4</tstamp>
+    </comp>
+    <comp ref="Q22">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>605082CE</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148WSFSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>605082D9</tstamp>
+    </comp>
+    <comp ref="Q18">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">DMN3404LDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">DMN3404L-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/transistors_s/" tstamps="/604E371B/"/>
+      <tstamp>605082E3</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x06_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">732-5319-ND</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Manufacturer Part Number">61300611121</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x06_Male" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/connecteurs/" tstamps="/6059D068/"/>
+      <tstamp>606A1320</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x06_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">732-5319-ND</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Manufacturer Part Number">61300611121</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x06_Male" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/connecteurs/" tstamps="/6059D068/"/>
+      <tstamp>606A43EA</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x06_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">732-5319-ND</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Manufacturer Part Number">61300611121</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x06_Male" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/connecteurs/" tstamps="/6059D068/"/>
+      <tstamp>606B952C</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x06_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">732-5319-ND</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Manufacturer Part Number">61300611121</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x06_Male" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/connecteurs/" tstamps="/6059D068/"/>
+      <tstamp>6095B8C5</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x06_Male">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <aliases>
+        <alias>USB_B_Mini</alias>
+      </aliases>
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Ferrite_Bead">
+      <description>Ferrite bead</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">Ferrite_Bead</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GSD">
+      <description>N-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_ST_STM32F4" part="STM32F446RCTx">
+      <aliases>
+        <alias>STM32F446RETx</alias>
+      </aliases>
+      <description>ARM Cortex-M4 MCU, 256KB flash, 128KB RAM, 180MHz, 1.8-3.6V, 50 GPIO, LQFP-64</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141306.pdf</docs>
+      <footprints>
+        <fp>LQFP*10x10mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F446RCTx</field>
+        <field name="Footprint">Package_QFP:LQFP-64_10x10mm_P0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13" type="BiDi"/>
+        <pin num="3" name="PC14" type="BiDi"/>
+        <pin num="4" name="PC15" type="BiDi"/>
+        <pin num="5" name="PH0" type="input"/>
+        <pin num="6" name="PH1" type="input"/>
+        <pin num="7" name="NRST" type="input"/>
+        <pin num="8" name="PC0" type="BiDi"/>
+        <pin num="9" name="PC1" type="BiDi"/>
+        <pin num="10" name="PC2" type="BiDi"/>
+        <pin num="11" name="PC3" type="BiDi"/>
+        <pin num="12" name="VSSA" type="power_in"/>
+        <pin num="13" name="VDDA" type="power_in"/>
+        <pin num="14" name="PA0" type="BiDi"/>
+        <pin num="15" name="PA1" type="BiDi"/>
+        <pin num="16" name="PA2" type="BiDi"/>
+        <pin num="17" name="PA3" type="BiDi"/>
+        <pin num="18" name="VSS" type="power_in"/>
+        <pin num="19" name="VDD" type="power_in"/>
+        <pin num="20" name="PA4" type="BiDi"/>
+        <pin num="21" name="PA5" type="BiDi"/>
+        <pin num="22" name="PA6" type="BiDi"/>
+        <pin num="23" name="PA7" type="BiDi"/>
+        <pin num="24" name="PC4" type="BiDi"/>
+        <pin num="25" name="PC5" type="BiDi"/>
+        <pin num="26" name="PB0" type="BiDi"/>
+        <pin num="27" name="PB1" type="BiDi"/>
+        <pin num="28" name="PB2" type="BiDi"/>
+        <pin num="29" name="PB10" type="BiDi"/>
+        <pin num="30" name="VCAP_1" type="power_in"/>
+        <pin num="31" name="VSS" type="power_in"/>
+        <pin num="32" name="VDD" type="power_in"/>
+        <pin num="33" name="PB12" type="BiDi"/>
+        <pin num="34" name="PB13" type="BiDi"/>
+        <pin num="35" name="PB14" type="BiDi"/>
+        <pin num="36" name="PB15" type="BiDi"/>
+        <pin num="37" name="PC6" type="BiDi"/>
+        <pin num="38" name="PC7" type="BiDi"/>
+        <pin num="39" name="PC8" type="BiDi"/>
+        <pin num="40" name="PC9" type="BiDi"/>
+        <pin num="41" name="PA8" type="BiDi"/>
+        <pin num="42" name="PA9" type="BiDi"/>
+        <pin num="43" name="PA10" type="BiDi"/>
+        <pin num="44" name="PA11" type="BiDi"/>
+        <pin num="45" name="PA12" type="BiDi"/>
+        <pin num="46" name="PA13" type="BiDi"/>
+        <pin num="47" name="VSS" type="power_in"/>
+        <pin num="48" name="VDD" type="power_in"/>
+        <pin num="49" name="PA14" type="BiDi"/>
+        <pin num="50" name="PA15" type="BiDi"/>
+        <pin num="51" name="PC10" type="BiDi"/>
+        <pin num="52" name="PC11" type="BiDi"/>
+        <pin num="53" name="PC12" type="BiDi"/>
+        <pin num="54" name="PD2" type="BiDi"/>
+        <pin num="55" name="PB3" type="BiDi"/>
+        <pin num="56" name="PB4" type="BiDi"/>
+        <pin num="57" name="PB5" type="BiDi"/>
+        <pin num="58" name="PB6" type="BiDi"/>
+        <pin num="59" name="PB7" type="BiDi"/>
+        <pin num="60" name="BOOT0" type="input"/>
+        <pin num="61" name="PB8" type="BiDi"/>
+        <pin num="62" name="PB9" type="BiDi"/>
+        <pin num="63" name="VSS" type="power_in"/>
+        <pin num="64" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Protection" part="USBLC6-2SC6">
+      <description>Bidirectional ESD Protection Diode, SOT-23-6</description>
+      <docs>http://www2.st.com/resource/en/datasheet/CD00050750.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USBLC6-2SC6</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IO1" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="IO2" type="passive"/>
+        <pin num="4" name="IO2" type="passive"/>
+        <pin num="5" name="VBUS" type="passive"/>
+        <pin num="6" name="IO1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="MCP16301">
+      <aliases>
+        <alias>MCP16301H</alias>
+      </aliases>
+      <description>1A, 4.0 to 30V Input, High Voltage Input integrated switch step-down regulator, SOT-23-6</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20005004D.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP16301</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BOOST" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="Vfb" type="input"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="Vin" type="power_in"/>
+        <pin num="6" name="SW" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="MCU_ST_STM32F4">
+      <uri>C:\Program Files\KiCad\share\kicad\library/MCU_ST_STM32F4.lib</uri>
+    </library>
+    <library logical="Power_Protection">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Power_Protection.lib</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Switching.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="d5b">
+      <node ref="Q34" pin="1"/>
+      <node ref="R35" pin="2"/>
+    </net>
+    <net code="2" name="Net-(R14-Pad1)">
+      <node ref="U1" pin="14"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="3" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="4" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="5" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="6" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="7" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="8" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="9" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="11" name="d1b">
+      <node ref="R12" pin="1"/>
+      <node ref="Q18" pin="1"/>
+    </net>
+    <net code="12" name="d2b">
+      <node ref="R29" pin="2"/>
+      <node ref="Q22" pin="1"/>
+    </net>
+    <net code="13" name="d3b">
+      <node ref="Q26" pin="1"/>
+      <node ref="R31" pin="2"/>
+    </net>
+    <net code="14" name="d4b">
+      <node ref="Q30" pin="1"/>
+      <node ref="R33" pin="2"/>
+    </net>
+    <net code="15" name="d5h">
+      <node ref="R13" pin="1"/>
+      <node ref="Q33" pin="1"/>
+    </net>
+    <net code="16" name="d4h">
+      <node ref="Q29" pin="1"/>
+      <node ref="R34" pin="2"/>
+    </net>
+    <net code="17" name="d3h">
+      <node ref="R32" pin="2"/>
+      <node ref="Q25" pin="1"/>
+    </net>
+    <net code="18" name="d2h">
+      <node ref="R30" pin="2"/>
+      <node ref="Q21" pin="1"/>
+    </net>
+    <net code="19" name="sb">
+      <node ref="R36" pin="2"/>
+      <node ref="Q14" pin="1"/>
+    </net>
+    <net code="20" name="sh">
+      <node ref="Q13" pin="1"/>
+      <node ref="R28" pin="2"/>
+    </net>
+    <net code="21" name="g2b">
+      <node ref="R5" pin="1"/>
+      <node ref="Q20" pin="1"/>
+    </net>
+    <net code="22" name="g5h">
+      <node ref="R14" pin="2"/>
+      <node ref="Q31" pin="1"/>
+    </net>
+    <net code="23" name="Net-(R21-Pad1)">
+      <node ref="U1" pin="42"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="24" name="Net-(R27-Pad1)">
+      <node ref="R27" pin="1"/>
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="25" name="g1b">
+      <node ref="R26" pin="2"/>
+      <node ref="Q16" pin="1"/>
+    </net>
+    <net code="26" name="Net-(R26-Pad1)">
+      <node ref="R26" pin="1"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="27" name="Net-(R25-Pad1)">
+      <node ref="U1" pin="50"/>
+      <node ref="R25" pin="1"/>
+    </net>
+    <net code="28" name="Net-(R24-Pad1)">
+      <node ref="U1" pin="45"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="29" name="Net-(R23-Pad1)">
+      <node ref="U1" pin="44"/>
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="30" name="Net-(R22-Pad1)">
+      <node ref="R22" pin="1"/>
+      <node ref="U1" pin="43"/>
+    </net>
+    <net code="31" name="Net-(R20-Pad1)">
+      <node ref="R20" pin="1"/>
+      <node ref="U1" pin="41"/>
+    </net>
+    <net code="32" name="g3b">
+      <node ref="Q24" pin="1"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="33" name="Net-(R19-Pad1)">
+      <node ref="U1" pin="23"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="34" name="Net-(R18-Pad1)">
+      <node ref="R18" pin="1"/>
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="35" name="g4h">
+      <node ref="R17" pin="2"/>
+      <node ref="Q27" pin="1"/>
+    </net>
+    <net code="36" name="Net-(R17-Pad1)">
+      <node ref="U1" pin="21"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="37" name="g4b">
+      <node ref="R16" pin="2"/>
+      <node ref="Q28" pin="1"/>
+    </net>
+    <net code="38" name="Net-(R16-Pad1)">
+      <node ref="R16" pin="1"/>
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="39" name="g5b">
+      <node ref="R15" pin="2"/>
+      <node ref="Q32" pin="1"/>
+    </net>
+    <net code="40" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="41" name="+3V3">
+      <node ref="J3" pin="6"/>
+      <node ref="R41" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="64"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U1" pin="48"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="19"/>
+      <node ref="C12" pin="1"/>
+      <node ref="R37" pin="2"/>
+      <node ref="FB1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="D14" pin="2"/>
+      <node ref="U1" pin="32"/>
+      <node ref="L1" pin="2"/>
+      <node ref="D15" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="42" name="JTMC">
+      <node ref="U1" pin="46"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="43" name="JTCK">
+      <node ref="J3" pin="4"/>
+      <node ref="U1" pin="49"/>
+    </net>
+    <net code="44" name="Net-(R37-Pad1)">
+      <node ref="U1" pin="34"/>
+      <node ref="R37" pin="1"/>
+    </net>
+    <net code="45" name="USB_DP">
+      <node ref="R38" pin="1"/>
+      <node ref="U1" pin="36"/>
+    </net>
+    <net code="46" name="USB_DM">
+      <node ref="R39" pin="1"/>
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="47" name="USB_ID">
+      <node ref="R40" pin="1"/>
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="48" name="c2h">
+      <node ref="R21" pin="2"/>
+      <node ref="Q5" pin="1"/>
+    </net>
+    <net code="49" name="g3h">
+      <node ref="R18" pin="2"/>
+      <node ref="Q23" pin="1"/>
+    </net>
+    <net code="50" name="g2h">
+      <node ref="Q19" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="51" name="g1h">
+      <node ref="R27" pin="2"/>
+      <node ref="Q15" pin="1"/>
+    </net>
+    <net code="52" name="cb">
+      <node ref="R6" pin="1"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="53" name="c1b">
+      <node ref="Q4" pin="1"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="54" name="c2b">
+      <node ref="Q6" pin="1"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="55" name="c3b">
+      <node ref="Q8" pin="1"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="56" name="c4b">
+      <node ref="Q10" pin="1"/>
+      <node ref="R24" pin="2"/>
+    </net>
+    <net code="57" name="c5b">
+      <node ref="Q12" pin="1"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="58" name="ch">
+      <node ref="Q1" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="59" name="c5h">
+      <node ref="R11" pin="1"/>
+      <node ref="Q11" pin="1"/>
+    </net>
+    <net code="60" name="c4h">
+      <node ref="R25" pin="2"/>
+      <node ref="Q9" pin="1"/>
+    </net>
+    <net code="61" name="c3h">
+      <node ref="R23" pin="2"/>
+      <node ref="Q7" pin="1"/>
+    </net>
+    <net code="62" name="Net-(R28-Pad1)">
+      <node ref="U1" pin="28"/>
+      <node ref="R28" pin="1"/>
+    </net>
+    <net code="63" name="c1h">
+      <node ref="R9" pin="1"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="64" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="60"/>
+    </net>
+    <net code="65" name="Net-(R29-Pad1)">
+      <node ref="R29" pin="1"/>
+      <node ref="U1" pin="55"/>
+    </net>
+    <net code="66" name="Net-(R30-Pad1)">
+      <node ref="U1" pin="56"/>
+      <node ref="R30" pin="1"/>
+    </net>
+    <net code="67" name="Net-(R31-Pad1)">
+      <node ref="R31" pin="1"/>
+      <node ref="U1" pin="57"/>
+    </net>
+    <net code="68" name="Net-(R32-Pad1)">
+      <node ref="R32" pin="1"/>
+      <node ref="U1" pin="58"/>
+    </net>
+    <net code="69" name="Net-(R33-Pad1)">
+      <node ref="U1" pin="59"/>
+      <node ref="R33" pin="1"/>
+    </net>
+    <net code="70" name="Net-(R34-Pad1)">
+      <node ref="U1" pin="61"/>
+      <node ref="R34" pin="1"/>
+    </net>
+    <net code="71" name="Net-(R35-Pad1)">
+      <node ref="R35" pin="1"/>
+      <node ref="U1" pin="62"/>
+    </net>
+    <net code="72" name="Net-(R36-Pad1)">
+      <node ref="R36" pin="1"/>
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="73" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="74" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="75" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="76" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="54"/>
+    </net>
+    <net code="77" name="d1h">
+      <node ref="Q17" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="78" name="Net-(R7-Pad2)">
+      <node ref="U1" pin="38"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="79" name="Net-(R13-Pad2)">
+      <node ref="R13" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="80" name="Net-(R12-Pad2)">
+      <node ref="R12" pin="2"/>
+      <node ref="U1" pin="53"/>
+    </net>
+    <net code="81" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2"/>
+      <node ref="U1" pin="52"/>
+    </net>
+    <net code="82" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="U1" pin="51"/>
+    </net>
+    <net code="83" name="Net-(R9-Pad2)">
+      <node ref="R9" pin="2"/>
+      <node ref="U1" pin="40"/>
+    </net>
+    <net code="84" name="Net-(R8-Pad2)">
+      <node ref="U1" pin="39"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="85" name="GND">
+      <node ref="D23" pin="2"/>
+      <node ref="R43" pin="2"/>
+      <node ref="D31" pin="2"/>
+      <node ref="R42" pin="2"/>
+      <node ref="D27" pin="2"/>
+      <node ref="Q28" pin="2"/>
+      <node ref="Q32" pin="2"/>
+      <node ref="Q24" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="D35" pin="2"/>
+      <node ref="Q20" pin="2"/>
+      <node ref="D13" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="D37" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="Q14" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="D33" pin="2"/>
+      <node ref="D29" pin="2"/>
+      <node ref="Q26" pin="2"/>
+      <node ref="Q34" pin="2"/>
+      <node ref="D25" pin="2"/>
+      <node ref="Q18" pin="2"/>
+      <node ref="Q22" pin="2"/>
+      <node ref="D21" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="Q30" pin="2"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J1" pin="5"/>
+      <node ref="D17" pin="2"/>
+      <node ref="Q16" pin="2"/>
+      <node ref="D19" pin="2"/>
+      <node ref="U1" pin="18"/>
+      <node ref="Q8" pin="2"/>
+      <node ref="U1" pin="12"/>
+      <node ref="D8" pin="2"/>
+      <node ref="D10" pin="2"/>
+      <node ref="U1" pin="63"/>
+      <node ref="U1" pin="47"/>
+      <node ref="U1" pin="31"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="Q12" pin="2"/>
+      <node ref="D12" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="Q10" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="86" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="87" name="Net-(C4-Pad1)">
+      <node ref="Y1" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="88" name="Net-(C1-Pad1)">
+      <node ref="U1" pin="5"/>
+      <node ref="C1" pin="1"/>
+      <node ref="Y1" pin="1"/>
+    </net>
+    <net code="89" name="RESET">
+      <node ref="SW1" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="90" name="Net-(C11-Pad1)">
+      <node ref="U1" pin="13"/>
+      <node ref="C11" pin="1"/>
+      <node ref="FB1" pin="1"/>
+    </net>
+    <net code="91" name="moteur_c_5_b">
+      <node ref="Q11" pin="2"/>
+      <node ref="D12" pin="1"/>
+      <node ref="Q12" pin="3"/>
+      <node ref="D11" pin="2"/>
+      <node ref="J4" pin="6"/>
+    </net>
+    <net code="92" name="moteur_c_2_b">
+      <node ref="Q6" pin="3"/>
+      <node ref="D6" pin="1"/>
+      <node ref="J4" pin="3"/>
+      <node ref="D5" pin="2"/>
+      <node ref="Q5" pin="2"/>
+    </net>
+    <net code="93" name="moteur_c_4_b">
+      <node ref="J4" pin="5"/>
+      <node ref="D9" pin="2"/>
+      <node ref="Q10" pin="3"/>
+      <node ref="D10" pin="1"/>
+      <node ref="Q9" pin="2"/>
+    </net>
+    <net code="94" name="moteur_c_3_b">
+      <node ref="D7" pin="2"/>
+      <node ref="D8" pin="1"/>
+      <node ref="Q8" pin="3"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="95" name="moteur_c_1_b">
+      <node ref="Q4" pin="3"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="96" name="moteur_c_a">
+      <node ref="D2" pin="1"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="D1" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="97" name="+5V">
+      <node ref="D7" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="Q15" pin="3"/>
+      <node ref="D18" pin="1"/>
+      <node ref="Q13" pin="3"/>
+      <node ref="J3" pin="1"/>
+      <node ref="D22" pin="1"/>
+      <node ref="Q19" pin="3"/>
+      <node ref="D26" pin="1"/>
+      <node ref="Q23" pin="3"/>
+      <node ref="D30" pin="1"/>
+      <node ref="Q31" pin="3"/>
+      <node ref="Q27" pin="3"/>
+      <node ref="D34" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="D3" pin="1"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="D1" pin="1"/>
+      <node ref="Q9" pin="3"/>
+      <node ref="D20" pin="1"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="Q7" pin="3"/>
+      <node ref="D9" pin="1"/>
+      <node ref="Q11" pin="3"/>
+      <node ref="D11" pin="1"/>
+      <node ref="Q33" pin="3"/>
+      <node ref="D36" pin="1"/>
+      <node ref="Q29" pin="3"/>
+      <node ref="D32" pin="1"/>
+      <node ref="Q25" pin="3"/>
+      <node ref="D28" pin="1"/>
+      <node ref="Q21" pin="3"/>
+      <node ref="Q17" pin="3"/>
+      <node ref="D24" pin="1"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="98" name="Net-(R41-Pad1)">
+      <node ref="R42" pin="1"/>
+      <node ref="R41" pin="1"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="99" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="100" name="Net-(C14-Pad2)">
+      <node ref="L1" pin="1"/>
+      <node ref="U3" pin="6"/>
+      <node ref="D13" pin="1"/>
+      <node ref="C14" pin="2"/>
+    </net>
+    <net code="101" name="Net-(D15-Pad1)">
+      <node ref="R43" pin="1"/>
+      <node ref="D15" pin="1"/>
+    </net>
+    <net code="102" name="Net-(R38-Pad2)">
+      <node ref="R38" pin="2"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="103" name="Net-(R39-Pad2)">
+      <node ref="U2" pin="4"/>
+      <node ref="R39" pin="2"/>
+    </net>
+    <net code="104" name="Net-(C13-Pad1)">
+      <node ref="U3" pin="4"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U2" pin="5"/>
+      <node ref="J1" pin="1"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="105" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="106" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="107" name="Net-(J1-Pad4)">
+      <node ref="R40" pin="2"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="108" name="moteur_d_5_b">
+      <node ref="J5" pin="6"/>
+      <node ref="Q34" pin="3"/>
+      <node ref="D36" pin="2"/>
+      <node ref="Q33" pin="2"/>
+      <node ref="D37" pin="1"/>
+    </net>
+    <net code="109" name="moteur_d_2_b">
+      <node ref="Q22" pin="3"/>
+      <node ref="J5" pin="3"/>
+      <node ref="D25" pin="1"/>
+      <node ref="Q21" pin="2"/>
+      <node ref="D24" pin="2"/>
+    </net>
+    <net code="110" name="moteur_d_3_b">
+      <node ref="J5" pin="4"/>
+      <node ref="D29" pin="1"/>
+      <node ref="Q25" pin="2"/>
+      <node ref="D28" pin="2"/>
+      <node ref="Q26" pin="3"/>
+    </net>
+    <net code="111" name="moteur_d_1_b">
+      <node ref="Q18" pin="3"/>
+      <node ref="Q17" pin="2"/>
+      <node ref="D20" pin="2"/>
+      <node ref="J5" pin="2"/>
+      <node ref="D21" pin="1"/>
+    </net>
+    <net code="112" name="moteur_d_4_b">
+      <node ref="Q30" pin="3"/>
+      <node ref="Q29" pin="2"/>
+      <node ref="D32" pin="2"/>
+      <node ref="D33" pin="1"/>
+      <node ref="J5" pin="5"/>
+    </net>
+    <net code="113" name="moteur_s_a">
+      <node ref="J5" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="Q13" pin="2"/>
+      <node ref="D16" pin="2"/>
+      <node ref="Q14" pin="3"/>
+      <node ref="D17" pin="1"/>
+    </net>
+    <net code="114" name="moteur_g_1_b">
+      <node ref="J2" pin="2"/>
+      <node ref="D19" pin="1"/>
+      <node ref="Q16" pin="3"/>
+      <node ref="Q15" pin="2"/>
+      <node ref="D18" pin="2"/>
+    </net>
+    <net code="115" name="moteur_g_2_b">
+      <node ref="D22" pin="2"/>
+      <node ref="Q19" pin="2"/>
+      <node ref="D23" pin="1"/>
+      <node ref="J2" pin="3"/>
+      <node ref="Q20" pin="3"/>
+    </net>
+    <net code="116" name="moteur_g_3_b">
+      <node ref="D26" pin="2"/>
+      <node ref="Q23" pin="2"/>
+      <node ref="D27" pin="1"/>
+      <node ref="J2" pin="4"/>
+      <node ref="Q24" pin="3"/>
+    </net>
+    <net code="117" name="moteur_g_4_b">
+      <node ref="Q27" pin="2"/>
+      <node ref="D30" pin="2"/>
+      <node ref="Q28" pin="3"/>
+      <node ref="D31" pin="1"/>
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="118" name="moteur_g_5_b">
+      <node ref="J2" pin="6"/>
+      <node ref="D35" pin="1"/>
+      <node ref="Q31" pin="2"/>
+      <node ref="D34" pin="2"/>
+      <node ref="Q32" pin="3"/>
+    </net>
+  </nets>
+</export>

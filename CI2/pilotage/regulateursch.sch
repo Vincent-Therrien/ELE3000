@@ -1,0 +1,547 @@
+EESchema Schematic File Version 4
+LIBS:pilotage-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:USB_B_Micro J?
+U 1 1 60455D33
+P 1600 3000
+AR Path="/603DAFE8/60455D33" Ref="J?"  Part="1" 
+AR Path="/60455D0B/60455D33" Ref="J1"  Part="1" 
+F 0 "J1" H 1655 3467 50  0000 C CNN
+F 1 "USB_B_Micro" H 1655 3376 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Wuerth_629105150521" H 1750 2950 50  0001 C CNN
+F 3 "~" H 1750 2950 50  0001 C CNN
+F 4 "732-5960-2-ND" H 1600 3000 50  0001 C CNN "DigiKey"
+F 5 "Würth Elektronik" H 1600 3000 50  0001 C CNN "Manufacturer"
+F 6 "629105150521" H 1600 3000 50  0001 C CNN "Manufacturer Part Number"
+	1    1600 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 3400 1500 3600
+Wire Wire Line
+	1500 3600 1600 3600
+Wire Wire Line
+	1600 3600 1600 3400
+Wire Wire Line
+	1500 3600 1500 3800
+Connection ~ 1500 3600
+$Comp
+L power:GND #PWR014
+U 1 1 6045A3BA
+P 1500 3800
+F 0 "#PWR014" H 1500 3550 50  0001 C CNN
+F 1 "GND" H 1505 3627 50  0000 C CNN
+F 2 "" H 1500 3800 50  0001 C CNN
+F 3 "" H 1500 3800 50  0001 C CNN
+	1    1500 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Protection:USBLC6-2SC6 U2
+U 1 1 6045A4B3
+P 3650 3050
+F 0 "U2" V 3300 3400 50  0000 L CNN
+F 1 "USBLC6-2SC6" V 3400 3400 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 2900 3450 50  0001 C CNN
+F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 3850 3400 50  0001 C CNN
+F 4 "497-5235-1-ND" V 3650 3050 50  0001 C CNN "DigiKey"
+F 5 "STMicroelectronics" V 3650 3050 50  0001 C CNN "Manufacturer"
+F 6 "USBLC6-2SC6" V 3650 3050 50  0001 C CNN "Manufacturer Part Number"
+	1    3650 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 3000 2800 2450
+Wire Wire Line
+	2800 2450 3550 2450
+Wire Wire Line
+	3550 2450 3550 2550
+Wire Wire Line
+	2800 3100 2800 3650
+Wire Wire Line
+	2800 3650 3550 3650
+Wire Wire Line
+	3550 3650 3550 3550
+Wire Wire Line
+	3150 3050 3050 3050
+Wire Wire Line
+	3050 3050 3050 3250
+$Comp
+L power:GND #PWR015
+U 1 1 6045B2D4
+P 3050 3250
+F 0 "#PWR015" H 3050 3000 50  0001 C CNN
+F 1 "GND" H 3055 3077 50  0000 C CNN
+F 2 "" H 3050 3250 50  0001 C CNN
+F 3 "" H 3050 3250 50  0001 C CNN
+	1    3050 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R38
+U 1 1 6045B301
+P 4350 2450
+F 0 "R38" V 4143 2450 50  0000 C CNN
+F 1 "22" V 4234 2450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4280 2450 50  0001 C CNN
+F 3 "~" H 4350 2450 50  0001 C CNN
+F 4 "P22ACT-ND" V 4350 2450 50  0001 C CNN "DigiKey"
+F 5 "Panasonic Electronic Components" V 4350 2450 50  0001 C CNN "Manufacturer"
+F 6 "ERJ-6GEYJ220V" V 4350 2450 50  0001 C CNN "Manufacturer Part Number"
+	1    4350 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R39
+U 1 1 6045B636
+P 4350 3650
+F 0 "R39" V 4143 3650 50  0000 C CNN
+F 1 "22" V 4234 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4280 3650 50  0001 C CNN
+F 3 "~" H 4350 3650 50  0001 C CNN
+F 4 "P22ACT-ND" V 4350 3650 50  0001 C CNN "DigiKey"
+F 5 "Panasonic Electronic Components" V 4350 3650 50  0001 C CNN "Manufacturer"
+F 6 "ERJ-6GEYJ220V" V 4350 3650 50  0001 C CNN "Manufacturer Part Number"
+	1    4350 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 2450 4200 2450
+Wire Wire Line
+	3750 3650 4200 3650
+Wire Wire Line
+	3750 2450 3750 2550
+Wire Wire Line
+	3750 3550 3750 3650
+$Comp
+L Device:R R40
+U 1 1 6045BDE1
+P 4350 4000
+F 0 "R40" V 4143 4000 50  0000 C CNN
+F 1 "22" V 4234 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4280 4000 50  0001 C CNN
+F 3 "~" H 4350 4000 50  0001 C CNN
+F 4 "P22ACT-ND" V 4350 4000 50  0001 C CNN "DigiKey"
+F 5 "Panasonic Electronic Components" V 4350 4000 50  0001 C CNN "Manufacturer"
+F 6 "ERJ-6GEYJ220V" V 4350 4000 50  0001 C CNN "Manufacturer Part Number"
+	1    4350 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2650 3200 2650 4000
+Wire Wire Line
+	2650 4000 4200 4000
+Text GLabel 4850 2450 2    50   BiDi ~ 0
+USB_DP
+Text GLabel 4900 3650 2    50   BiDi ~ 0
+USB_DM
+Text GLabel 4900 4000 2    50   BiDi ~ 0
+USB_ID
+Wire Wire Line
+	4500 2450 4850 2450
+Wire Wire Line
+	4500 3650 4900 3650
+Wire Wire Line
+	4900 4000 4500 4000
+Wire Wire Line
+	2650 2800 2650 2100
+Wire Wire Line
+	2650 2100 5400 2100
+Wire Wire Line
+	5400 3050 4150 3050
+Wire Wire Line
+	1900 2800 2650 2800
+Wire Wire Line
+	1900 3000 2800 3000
+Wire Wire Line
+	1900 3100 2800 3100
+Wire Wire Line
+	1900 3200 2650 3200
+Wire Notes Line
+	2350 1900 2350 4300
+Wire Notes Line
+	1050 4300 1050 1900
+Text Notes 1050 1850 0    50   ~ 0
+Connecteur
+Wire Notes Line
+	5600 1900 5600 4300
+Text Notes 2400 1850 0    50   ~ 0
+Protection ESD
+$Comp
+L Device:C C?
+U 1 1 6045F937
+P 6200 2750
+AR Path="/603DAFE8/6045F937" Ref="C?"  Part="1" 
+AR Path="/60455D0B/6045F937" Ref="C13"  Part="1" 
+F 0 "C13" H 6315 2796 50  0000 L CNN
+F 1 "10uF" H 6315 2705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6238 2600 50  0001 C CNN
+F 3 "~" H 6200 2750 50  0001 C CNN
+F 4 "1276-1096-1-ND" H 6200 2750 50  0001 C CNN "DigiKey"
+F 5 "Samsung Electro-Mechanics" H 6200 2750 50  0001 C CNN "Manufacturer"
+F 6 "CL21A106KOQNNNE" H 6200 2750 50  0001 C CNN "Manufacturer Part Number"
+	1    6200 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Switching:MCP16301 U3
+U 1 1 6045FF96
+P 6900 2400
+F 0 "U3" H 6900 2767 50  0000 C CNN
+F 1 "MCP16301" H 6900 2676 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 6950 2050 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005004D.pdf" H 6600 2750 50  0001 C CNN
+F 4 "MCP16301T-I/CHYCT-ND" H 6900 2400 50  0001 C CNN "DigiKey"
+F 5 "Microchip Technology" H 6900 2400 50  0001 C CNN "Manufacturer"
+F 6 "MCP16301T-I/CHY" H 6900 2400 50  0001 C CNN "Manufacturer Product Number"
+	1    6900 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 2300 6200 2300
+Wire Wire Line
+	6200 2600 6200 2400
+Wire Wire Line
+	6500 2400 6200 2400
+Connection ~ 6200 2400
+Wire Wire Line
+	6200 2400 6200 2300
+Wire Wire Line
+	6200 2900 6200 3100
+$Comp
+L power:GND #PWR016
+U 1 1 60463CB2
+P 6200 3100
+F 0 "#PWR016" H 6200 2850 50  0001 C CNN
+F 1 "GND" H 6205 2927 50  0000 C CNN
+F 2 "" H 6200 3100 50  0001 C CNN
+F 3 "" H 6200 3100 50  0001 C CNN
+	1    6200 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 2800 6900 3100
+$Comp
+L power:GND #PWR017
+U 1 1 604641C3
+P 6900 3100
+F 0 "#PWR017" H 6900 2850 50  0001 C CNN
+F 1 "GND" H 6905 2927 50  0000 C CNN
+F 2 "" H 6900 3100 50  0001 C CNN
+F 3 "" H 6900 3100 50  0001 C CNN
+	1    6900 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D14
+U 1 1 604642DA
+P 8150 2300
+F 0 "D14" H 8150 2516 50  0000 C CNN
+F 1 "1N4148" H 8150 2425 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8150 2300 50  0001 C CNN
+F 3 "~" H 8150 2300 50  0001 C CNN
+F 4 "1N4148WSFSCT-ND" H 8150 2300 50  0001 C CNN "DigiKey"
+F 5 "ON Semiconductor" H 8150 2300 50  0001 C CNN "Manufacturer"
+F 6 "1N4148WS" H 8150 2300 50  0001 C CNN "Manufacturer Part Number"
+	1    8150 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60465CD2
+P 7800 2500
+AR Path="/603DAFE8/60465CD2" Ref="C?"  Part="1" 
+AR Path="/60455D0B/60465CD2" Ref="C14"  Part="1" 
+F 0 "C14" H 7915 2546 50  0000 L CNN
+F 1 "0.10uF" H 7915 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7838 2350 50  0001 C CNN
+F 3 "~" H 7800 2500 50  0001 C CNN
+F 4 "1276-1007-1-ND" H 7800 2500 50  0001 C CNN "DigiKey"
+F 5 "Samsung Electro-Mechanics" H 7800 2500 50  0001 C CNN "Manufacturer"
+F 6 "CL21F104ZBCNNNC" H 7800 2500 50  0001 C CNN "Manufacturer Part Number"
+	1    7800 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D13
+U 1 1 6046767F
+P 7800 2900
+F 0 "D13" V 7754 2979 50  0000 L CNN
+F 1 "D_Schottky" V 7845 2979 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7800 2900 50  0001 C CNN
+F 3 "~" H 7800 2900 50  0001 C CNN
+F 4 "B0530WSRRGCT-ND" V 7800 2900 50  0001 C CNN "DigiKey"
+F 5 "Taiwan Semiconductor Corporation" V 7800 2900 50  0001 C CNN "Manufacturer"
+F 6 "B0530WS RRG" V 7800 2900 50  0001 C CNN "Manufacturer Part Number"
+	1    7800 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7500 2400 7300 2400
+$Comp
+L power:GND #PWR018
+U 1 1 60469C53
+P 7800 3100
+F 0 "#PWR018" H 7800 2850 50  0001 C CNN
+F 1 "GND" H 7805 2927 50  0000 C CNN
+F 2 "" H 7800 3100 50  0001 C CNN
+F 3 "" H 7800 3100 50  0001 C CNN
+	1    7800 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 2300 7800 2300
+Wire Wire Line
+	7800 2750 7800 2700
+Wire Wire Line
+	7800 2350 7800 2300
+Connection ~ 7800 2300
+Wire Wire Line
+	7800 2300 8000 2300
+Wire Wire Line
+	7800 2700 7500 2700
+Wire Wire Line
+	7500 2700 7500 2400
+Connection ~ 7800 2700
+Wire Wire Line
+	7800 2700 7800 2650
+Wire Wire Line
+	7800 3050 7800 3100
+$Comp
+L Device:L L1
+U 1 1 6046DC39
+P 8300 2700
+F 0 "L1" V 8490 2700 50  0000 C CNN
+F 1 "15uH" V 8399 2700 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8300 2700 50  0001 C CNN
+F 3 "~" H 8300 2700 50  0001 C CNN
+F 4 "587-2896-1-ND" V 8300 2700 50  0001 C CNN "DigiKey"
+F 5 "Taiyo Yuden" V 8300 2700 50  0001 C CNN "Manufacturer"
+F 6 "BRL1608T150M" V 8300 2700 50  0001 C CNN "Manufacturer Part Number"
+	1    8300 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8150 2700 7800 2700
+Wire Wire Line
+	8450 2700 8700 2700
+Wire Wire Line
+	8700 2700 8700 2300
+Wire Wire Line
+	8700 2300 8300 2300
+$Comp
+L Device:R R41
+U 1 1 6046FFEE
+P 8700 3000
+F 0 "R41" H 8630 2954 50  0000 R CNN
+F 1 "31k6" H 8630 3045 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8630 3000 50  0001 C CNN
+F 3 "~" H 8700 3000 50  0001 C CNN
+F 4 "P31.6KDACT-ND" V 8700 3000 50  0001 C CNN "DigiKey"
+F 5 "Panasonic Electronic Components" V 8700 3000 50  0001 C CNN "Manufacturer"
+F 6 "ERA-6AEB3162V" V 8700 3000 50  0001 C CNN "Manufacturer Part Number"
+	1    8700 3000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8700 2850 8700 2700
+Connection ~ 8700 2700
+$Comp
+L Device:R R?
+U 1 1 6047232D
+P 8700 3600
+AR Path="/603DAFE8/6047232D" Ref="R?"  Part="1" 
+AR Path="/60455D0B/6047232D" Ref="R42"  Part="1" 
+F 0 "R42" V 8800 3650 50  0000 L CNN
+F 1 "10k0" V 8800 3400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8630 3600 50  0001 C CNN
+F 3 "~" H 8700 3600 50  0001 C CNN
+F 4 "P10KDACT-ND" H 8700 3600 50  0001 C CNN "DigiKey"
+F 5 "Panasonic Electronic Components" H 8700 3600 50  0001 C CNN "Manufacturer"
+F 6 "ERA-6AEB103V" H 8700 3600 50  0001 C CNN "Manufacturer Part Number"
+	1    8700 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 3450 8700 3350
+Wire Wire Line
+	7300 2600 7400 2600
+Wire Wire Line
+	7400 2600 7400 3350
+Wire Wire Line
+	7400 3350 8700 3350
+Connection ~ 8700 3350
+Wire Wire Line
+	8700 3350 8700 3150
+Wire Wire Line
+	8700 3750 8700 3900
+$Comp
+L power:GND #PWR019
+U 1 1 60475A92
+P 8700 3900
+F 0 "#PWR019" H 8700 3650 50  0001 C CNN
+F 1 "GND" H 8705 3727 50  0000 C CNN
+F 2 "" H 8700 3900 50  0001 C CNN
+F 3 "" H 8700 3900 50  0001 C CNN
+	1    8700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60475BDA
+P 9150 2550
+AR Path="/603DAFE8/60475BDA" Ref="C?"  Part="1" 
+AR Path="/60455D0B/60475BDA" Ref="C15"  Part="1" 
+F 0 "C15" H 9265 2596 50  0000 L CNN
+F 1 "10uF" H 9265 2505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9188 2400 50  0001 C CNN
+F 3 "~" H 9150 2550 50  0001 C CNN
+F 4 "1276-1096-1-ND" H 9150 2550 50  0001 C CNN "DigiKey"
+F 5 "Samsung Electro-Mechanics" H 9150 2550 50  0001 C CNN "Manufacturer"
+F 6 "CL21A106KOQNNNE" H 9150 2550 50  0001 C CNN "Manufacturer Part Number"
+	1    9150 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60476687
+P 9650 2550
+AR Path="/603DAFE8/60476687" Ref="C?"  Part="1" 
+AR Path="/60455D0B/60476687" Ref="C16"  Part="1" 
+F 0 "C16" H 9765 2596 50  0000 L CNN
+F 1 "10uF" H 9765 2505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9688 2400 50  0001 C CNN
+F 3 "~" H 9650 2550 50  0001 C CNN
+F 4 "1276-1096-1-ND" H 9650 2550 50  0001 C CNN "DigiKey"
+F 5 "Samsung Electro-Mechanics" H 9650 2550 50  0001 C CNN "Manufacturer"
+F 6 "CL21A106KOQNNNE" H 9650 2550 50  0001 C CNN "Manufacturer Part Number"
+	1    9650 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 2300 9150 2300
+Wire Wire Line
+	9950 2300 9950 2200
+Connection ~ 8700 2300
+Wire Wire Line
+	9650 2400 9650 2300
+Connection ~ 9650 2300
+Wire Wire Line
+	9650 2300 9950 2300
+Wire Wire Line
+	9150 2400 9150 2300
+Connection ~ 9150 2300
+Wire Wire Line
+	9150 2300 9650 2300
+Wire Wire Line
+	9150 2700 9150 2800
+Wire Wire Line
+	9150 2800 9400 2800
+Wire Wire Line
+	9650 2800 9650 2700
+Wire Wire Line
+	9400 2800 9400 2900
+Connection ~ 9400 2800
+Wire Wire Line
+	9400 2800 9650 2800
+$Comp
+L power:GND #PWR020
+U 1 1 6047B050
+P 9400 2900
+F 0 "#PWR020" H 9400 2650 50  0001 C CNN
+F 1 "GND" H 9405 2727 50  0000 C CNN
+F 2 "" H 9400 2900 50  0001 C CNN
+F 3 "" H 9400 2900 50  0001 C CNN
+	1    9400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR021
+U 1 1 6047B097
+P 9950 2200
+F 0 "#PWR021" H 9950 2050 50  0001 C CNN
+F 1 "+3.3V" H 9965 2373 50  0000 C CNN
+F 2 "" H 9950 2200 50  0001 C CNN
+F 3 "" H 9950 2200 50  0001 C CNN
+	1    9950 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 9950 2300
+$Comp
+L Device:LED D15
+U 1 1 6047E46A
+P 9950 3050
+F 0 "D15" V 9988 2933 50  0000 R CNN
+F 1 "LED" V 9897 2933 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9950 3050 50  0001 C CNN
+F 3 "~" H 9950 3050 50  0001 C CNN
+F 4 "350-4394-1-ND" V 9950 3050 50  0001 C CNN "DigiKey"
+F 5 "Dialight" V 9950 3050 50  0001 C CNN "Manufacturer"
+F 6 "5973605607F" V 9950 3050 50  0001 C CNN "Manufacturer Part Number"
+	1    9950 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 604804F7
+P 9950 3600
+AR Path="/603DAFE8/604804F7" Ref="R?"  Part="1" 
+AR Path="/60455D0B/604804F7" Ref="R43"  Part="1" 
+F 0 "R43" V 10050 3650 50  0000 L CNN
+F 1 "330" V 10050 3400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9880 3600 50  0001 C CNN
+F 3 "~" H 9950 3600 50  0001 C CNN
+F 4 "P330DCCT-ND" H 9950 3600 50  0001 C CNN "DigiKey"
+F 5 "Panasonic Electronic Components" H 9950 3600 50  0001 C CNN "Manufacturer"
+F 6 "ERA-2AEB331X" H 9950 3600 50  0001 C CNN "Manufacturer Part Number"
+	1    9950 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 2300 9950 2900
+Wire Wire Line
+	9950 3200 9950 3450
+$Comp
+L power:GND #PWR022
+U 1 1 60487451
+P 9950 3900
+F 0 "#PWR022" H 9950 3650 50  0001 C CNN
+F 1 "GND" H 9955 3727 50  0000 C CNN
+F 2 "" H 9950 3900 50  0001 C CNN
+F 3 "" H 9950 3900 50  0001 C CNN
+	1    9950 3900
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	10900 1900 10900 4300
+Wire Notes Line
+	1050 4300 10900 4300
+Wire Notes Line
+	1050 1900 10900 1900
+Text Notes 5650 1850 0    50   ~ 0
+Régulateur
+Wire Wire Line
+	5400 2100 5400 3050
+Wire Wire Line
+	6200 2300 6200 2100
+Wire Wire Line
+	6200 2100 5400 2100
+Connection ~ 6200 2300
+Connection ~ 5400 2100
+Wire Wire Line
+	9950 3750 9950 3900
+$EndSCHEMATC
